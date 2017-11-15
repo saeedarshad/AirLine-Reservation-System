@@ -69,8 +69,8 @@ public class Email{
     public boolean send_email_invoice(String temp, String flightid,String departure, String arrival, String date,String time,String classs,int fare,String seats, String uname) throws ClassNotFoundException, SQLException,
              ServletException, IOException {
 
-        final String username = "m.saeedarshad95@gmail.com";
-        final String password = "fastt4213##";
+        final String username = "xyz@gmail.com";
+        final String password = "11111";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
